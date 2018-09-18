@@ -17,16 +17,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     Node.cpp \
-    Queue.cpp \
-    Stack.cpp \
-    Thing.cpp
+    Thing.cpp \
+    QueueVet.cpp \
+    StackVet.cpp
 
 HEADERS += \
     header.hpp \
     Node.h \
-    Queue.h \
-    Stack.h \
-    Thing.h
+    Thing.h \
+    QueueVet.h \
+    StackVet.h
 
 INCLUDEPATH +=
 /path/to/ncurses/headers/
