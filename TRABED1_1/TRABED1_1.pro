@@ -19,14 +19,16 @@ SOURCES += \
     Node.cpp \
     Thing.cpp \
     QueueVet.cpp \
-    StackVet.cpp
+    StackVet.cpp \
+    Interface.cpp
 
 HEADERS += \
     header.hpp \
     Node.h \
     Thing.h \
     QueueVet.h \
-    StackVet.h
+    StackVet.h \
+    Interface.h
 
 INCLUDEPATH +=
 /path/to/ncurses/headers/

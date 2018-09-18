@@ -3,4 +3,5 @@
 #include <StackVet.h>
 #include <QueueVet.h>
 #include <Thing.h>
+#include <Interface.h>
 #endif // HEADER_HPP

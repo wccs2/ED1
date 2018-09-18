@@ -1,5 +1,10 @@
 #include "StackVet.h"
 
+StackVet::StackVet()
+{
+
+}
+
 StackVet::StackVet(int qt)
 {
     Vet = new Thing[qt];

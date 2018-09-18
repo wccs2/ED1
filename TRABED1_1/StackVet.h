@@ -6,6 +6,7 @@
 class StackVet
 {
 public:
+    StackVet();
     StackVet(int qt);
     ~StackVet();
     Thing *Vet;
