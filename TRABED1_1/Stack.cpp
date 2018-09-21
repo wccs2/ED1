@@ -1,5 +1,5 @@
-#include "stack.h"
-bool stack::push(Thing *obj)
+#include "Stack.h"
+bool Stack::push(Thing *obj)
 {
     Node *P;
     P=Node::montaNo(obj);
@@ -12,7 +12,7 @@ bool stack::push(Thing *obj)
     return false;
 }
 
-bool stack::pop(Thing *obj)
+bool Stack::pop(Thing *obj)
 {
     if(!TOP)
     {
@@ -25,12 +25,12 @@ bool stack::pop(Thing *obj)
     return true;
 }
 
-bool stack::isEmpty()
+bool Stack::isEmpty()
 {
     return !TOP;
 }
 
-stack::stack()
+Stack::stack()
 {
 
 }

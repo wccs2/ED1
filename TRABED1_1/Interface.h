@@ -6,8 +6,9 @@ class Interface
 {
 public:
     Interface();
-    void iniciaTorre(StackVet *torre);
-    imprimiTorre(StackVet *torre, Thing *dat);
+    void iniciaTorre(Stack *torre);
+    void iniciaplayers(Queue *players);
+    void imprimiTorre(Stack *torre, Thing *dat);
 };
 
 #endif // INTERFACE_H

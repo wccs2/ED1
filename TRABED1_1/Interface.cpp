@@ -5,13 +5,14 @@ Interface::Interface()
 
 }
 
-void Interface::iniciaTorre(StackVet *torre)
+void Interface::iniciaTorre(Stack *torre)
 {
-    torre = (StackVet*) new StackVet[6];
-    for(int i=0; i<6; i++)
-    {
-        torre[i]= 0;
-    }
+    torre = (Stack *) new Stack[6];
+}
+
+void Interface::iniciaplayers(Queue *players)
+{
+    players = (Queue *) new Queue[4];
 }
 
 

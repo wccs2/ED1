@@ -5,9 +5,12 @@ using namespace std;
 
 int main()
 {
-   StackVet *torre=NULL;
+   Stack *torre=NULL;
+   Queue *players=NULL;
    Interface objInterface;
    objInterface.iniciaTorre(torre);
+   objInterface.iniciaplayers(players);
+
 
 
 cout<<"helo world"<<endl;

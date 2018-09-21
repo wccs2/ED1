@@ -7,7 +7,7 @@ class Thing
 {
 public:
     Thing();
-    string dado;
+    char dado;
 };
 
 #endif // THING_H

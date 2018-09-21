@@ -3,7 +3,7 @@
 #include <Thing.h>
 #include <Node.h>
 #include <iostream>
-class stack
+class Stack
 {
 public:
     stack();
